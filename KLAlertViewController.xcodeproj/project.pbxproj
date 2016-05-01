@@ -1,0 +1,313 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6BB1D2161CD61ECE0013C475 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BB1D2151CD61ECE0013C475 /* main.m */; };
+		6BB1D2191CD61ECE0013C475 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BB1D2181CD61ECE0013C475 /* AppDelegate.m */; };
+		6BB1D21C1CD61ECE0013C475 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BB1D21B1CD61ECE0013C475 /* ViewController.m */; };
+		6BB1D21F1CD61ECE0013C475 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6BB1D21D1CD61ECE0013C475 /* Main.storyboard */; };
+		6BB1D2211CD61ECE0013C475 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6BB1D2201CD61ECE0013C475 /* Assets.xcassets */; };
+		6BB1D2241CD61ECE0013C475 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6BB1D2221CD61ECE0013C475 /* LaunchScreen.storyboard */; };
+		6BB1D22D1CD61F2C0013C475 /* KLAlertViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BB1D22C1CD61F2C0013C475 /* KLAlertViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6BB1D2111CD61ECE0013C475 /* KLAlertViewController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KLAlertViewController.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6BB1D2151CD61ECE0013C475 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6BB1D2171CD61ECE0013C475 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		6BB1D2181CD61ECE0013C475 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		6BB1D21A1CD61ECE0013C475 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		6BB1D21B1CD61ECE0013C475 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		6BB1D21E1CD61ECE0013C475 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6BB1D2201CD61ECE0013C475 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6BB1D2231CD61ECE0013C475 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6BB1D2251CD61ECE0013C475 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6BB1D22B1CD61F2C0013C475 /* KLAlertViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KLAlertViewController.h; sourceTree = "<group>"; };
+		6BB1D22C1CD61F2C0013C475 /* KLAlertViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KLAlertViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6BB1D20E1CD61ECE0013C475 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6BB1D2081CD61ECE0013C475 = {
+			isa = PBXGroup;
+			children = (
+				6BB1D2131CD61ECE0013C475 /* KLAlertViewController */,
+				6BB1D2121CD61ECE0013C475 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6BB1D2121CD61ECE0013C475 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6BB1D2111CD61ECE0013C475 /* KLAlertViewController.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6BB1D2131CD61ECE0013C475 /* KLAlertViewController */ = {
+			isa = PBXGroup;
+			children = (
+				6BB1D2171CD61ECE0013C475 /* AppDelegate.h */,
+				6BB1D2181CD61ECE0013C475 /* AppDelegate.m */,
+				6BB1D21A1CD61ECE0013C475 /* ViewController.h */,
+				6BB1D21B1CD61ECE0013C475 /* ViewController.m */,
+				6BB1D22B1CD61F2C0013C475 /* KLAlertViewController.h */,
+				6BB1D22C1CD61F2C0013C475 /* KLAlertViewController.m */,
+				6BB1D21D1CD61ECE0013C475 /* Main.storyboard */,
+				6BB1D2201CD61ECE0013C475 /* Assets.xcassets */,
+				6BB1D2221CD61ECE0013C475 /* LaunchScreen.storyboard */,
+				6BB1D2251CD61ECE0013C475 /* Info.plist */,
+				6BB1D2141CD61ECE0013C475 /* Supporting Files */,
+			);
+			path = KLAlertViewController;
+			sourceTree = "<group>";
+		};
+		6BB1D2141CD61ECE0013C475 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6BB1D2151CD61ECE0013C475 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6BB1D2101CD61ECE0013C475 /* KLAlertViewController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6BB1D2281CD61ECE0013C475 /* Build configuration list for PBXNativeTarget "KLAlertViewController" */;
+			buildPhases = (
+				6BB1D20D1CD61ECE0013C475 /* Sources */,
+				6BB1D20E1CD61ECE0013C475 /* Frameworks */,
+				6BB1D20F1CD61ECE0013C475 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KLAlertViewController;
+			productName = KLAlertViewController;
+			productReference = 6BB1D2111CD61ECE0013C475 /* KLAlertViewController.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6BB1D2091CD61ECE0013C475 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = LeonKang;
+				TargetAttributes = {
+					6BB1D2101CD61ECE0013C475 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+				};
+			};
+			buildConfigurationList = 6BB1D20C1CD61ECE0013C475 /* Build configuration list for PBXProject "KLAlertViewController" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6BB1D2081CD61ECE0013C475;
+			productRefGroup = 6BB1D2121CD61ECE0013C475 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6BB1D2101CD61ECE0013C475 /* KLAlertViewController */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6BB1D20F1CD61ECE0013C475 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6BB1D2241CD61ECE0013C475 /* LaunchScreen.storyboard in Resources */,
+				6BB1D2211CD61ECE0013C475 /* Assets.xcassets in Resources */,
+				6BB1D21F1CD61ECE0013C475 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6BB1D20D1CD61ECE0013C475 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6BB1D22D1CD61F2C0013C475 /* KLAlertViewController.m in Sources */,
+				6BB1D21C1CD61ECE0013C475 /* ViewController.m in Sources */,
+				6BB1D2191CD61ECE0013C475 /* AppDelegate.m in Sources */,
+				6BB1D2161CD61ECE0013C475 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		6BB1D21D1CD61ECE0013C475 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6BB1D21E1CD61ECE0013C475 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6BB1D2221CD61ECE0013C475 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6BB1D2231CD61ECE0013C475 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6BB1D2261CD61ECE0013C475 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		6BB1D2271CD61ECE0013C475 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6BB1D2291CD61ECE0013C475 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = KLAlertViewController/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = org.kl.KLAlertViewController;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		6BB1D22A1CD61ECE0013C475 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = KLAlertViewController/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = org.kl.KLAlertViewController;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6BB1D20C1CD61ECE0013C475 /* Build configuration list for PBXProject "KLAlertViewController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6BB1D2261CD61ECE0013C475 /* Debug */,
+				6BB1D2271CD61ECE0013C475 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6BB1D2281CD61ECE0013C475 /* Build configuration list for PBXNativeTarget "KLAlertViewController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6BB1D2291CD61ECE0013C475 /* Debug */,
+				6BB1D22A1CD61ECE0013C475 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6BB1D2091CD61ECE0013C475 /* Project object */;
+}
