@@ -10,4 +10,6 @@
 
 @interface KLAlertViewController : UIViewController
 
+- (void)show;
+
 @end

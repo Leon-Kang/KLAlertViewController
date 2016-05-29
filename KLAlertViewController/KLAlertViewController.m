@@ -17,6 +17,13 @@
 
 @implementation KLAlertViewController
 
+- (void)show {
+    UIViewController *rootViewController = [UIApplication sharedApplication].keyWindow.rootViewController;
+    [rootViewController addChildViewController:self];
+    [rootViewController.view addSubview:self.view];
+    [self didMoveToParentViewController:rootViewController];
+}
+
 - (void)viewDidLoad {
     [super viewDidLoad];
 

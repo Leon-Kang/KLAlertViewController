@@ -27,9 +27,7 @@
 
 - (IBAction)showAlert:(id)sender {
     KLAlertViewController *alertOne = [[UIStoryboard storyboardWithName:@"Main" bundle:nil] instantiateViewControllerWithIdentifier:@"sbAlertView"];
-    [self addChildViewController:alertOne];
-    [self.view addSubview:alertOne.view];
-    [alertOne didMoveToParentViewController:self];
+    [alertOne show];
 }
 
 @end
