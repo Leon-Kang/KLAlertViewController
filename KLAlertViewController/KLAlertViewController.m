@@ -8,9 +8,10 @@
 
 #import "KLAlertViewController.h"
 
-@interface KLAlertViewController ()
+@interface KLAlertViewController () <UIGestureRecognizerDelegate>
 
 @property (weak, nonatomic) IBOutlet UIImageView *backgroundView;
+@property (weak, nonatomic) IBOutlet UIView *backgroundTapView;
 
 @end
 
@@ -19,6 +20,12 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
 
+    UITapGestureRecognizer *tap = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(removeFromSuperViewController:)];
+    tap.delegate = self;
+    tap.numberOfTapsRequired = 1;
+    tap.delaysTouchesBegan = YES;
+    [self.backgroundTapView addGestureRecognizer:tap];
+    
 }
 
 - (void)didReceiveMemoryWarning {
@@ -27,12 +34,14 @@
 }
 
 - (IBAction)removeAlert:(id)sender {
-    [self removeFromSuperViewController];
+    [self removeFromSuperViewController:nil];
 }
 
-- (void)removeFromSuperViewController {
+- (void)removeFromSuperViewController:(UIGestureRecognizer *)gr {
     [self didMoveToParentViewController:nil];
     [self.view removeFromSuperview];
     [self removeFromParentViewController];
+    [self.backgroundTapView removeGestureRecognizer:gr];
 }
+
 @end

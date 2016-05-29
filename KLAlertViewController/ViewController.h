@@ -10,6 +10,7 @@
 
 @interface ViewController : UIViewController
 
+@property (assign, nonatomic) id delegate;
 
 @end
 

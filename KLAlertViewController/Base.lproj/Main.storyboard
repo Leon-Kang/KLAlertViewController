@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10116" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
@@ -62,6 +62,7 @@
                         <viewControllerLayoutGuide type="bottom" id="FvM-tD-jsN"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="bri-37-Ugz">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" alpha="0.29999999999999999" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="t6K-1i-Oip">
@@ -69,6 +70,10 @@
                                 <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <gestureRecognizers/>
                             </imageView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="0BP-11-TIt">
+                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                            </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="uD1-ot-Zva" customClass="AlertView">
                                 <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
                                 <subviews>
@@ -117,13 +122,13 @@
                                     </mask>
                                     <mask key="constraints">
                                         <exclude reference="UGx-On-lWd"/>
-                                        <exclude reference="7bZ-77-I2X"/>
-                                        <exclude reference="atw-rA-eTK"/>
-                                        <exclude reference="ygj-wt-yuW"/>
                                         <exclude reference="J4j-cY-w4f"/>
                                         <exclude reference="U6i-uC-Dia"/>
                                         <exclude reference="bFd-uS-Fyi"/>
                                         <exclude reference="hsf-4u-pRq"/>
+                                        <exclude reference="7bZ-77-I2X"/>
+                                        <exclude reference="atw-rA-eTK"/>
+                                        <exclude reference="ygj-wt-yuW"/>
                                     </mask>
                                 </variation>
                                 <variation key="widthClass=compact">
@@ -133,36 +138,44 @@
                                     </mask>
                                     <mask key="constraints">
                                         <include reference="UGx-On-lWd"/>
-                                        <include reference="7bZ-77-I2X"/>
-                                        <include reference="atw-rA-eTK"/>
-                                        <include reference="ygj-wt-yuW"/>
                                         <include reference="J4j-cY-w4f"/>
                                         <include reference="U6i-uC-Dia"/>
                                         <include reference="bFd-uS-Fyi"/>
                                         <include reference="hsf-4u-pRq"/>
+                                        <include reference="7bZ-77-I2X"/>
+                                        <include reference="atw-rA-eTK"/>
+                                        <include reference="ygj-wt-yuW"/>
                                     </mask>
                                 </variation>
                             </view>
                         </subviews>
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                         <constraints>
+                            <constraint firstItem="0BP-11-TIt" firstAttribute="top" secondItem="bri-37-Ugz" secondAttribute="top" id="3BA-5m-lfv"/>
                             <constraint firstItem="FvM-tD-jsN" firstAttribute="top" secondItem="t6K-1i-Oip" secondAttribute="bottom" id="3KX-ka-4x0"/>
                             <constraint firstAttribute="trailing" secondItem="uD1-ot-Zva" secondAttribute="trailing" constant="23" id="8m9-Cu-dX1"/>
                             <constraint firstItem="uD1-ot-Zva" firstAttribute="centerY" secondItem="bri-37-Ugz" secondAttribute="centerY" id="EF7-ni-cNr"/>
                             <constraint firstItem="t6K-1i-Oip" firstAttribute="top" secondItem="z8Q-Ns-x8e" secondAttribute="bottom" id="GCA-bb-bv3">
                                 <variation key="widthClass=compact" constant="-20"/>
                             </constraint>
+                            <constraint firstItem="0BP-11-TIt" firstAttribute="leading" secondItem="bri-37-Ugz" secondAttribute="leading" id="TvF-sb-oh2"/>
                             <constraint firstItem="uD1-ot-Zva" firstAttribute="leading" secondItem="bri-37-Ugz" secondAttribute="leading" constant="23" id="i9A-7Z-mBS"/>
+                            <constraint firstItem="FvM-tD-jsN" firstAttribute="top" secondItem="0BP-11-TIt" secondAttribute="bottom" id="ldf-z6-liu"/>
                             <constraint firstAttribute="trailing" secondItem="t6K-1i-Oip" secondAttribute="trailing" id="pCO-Bt-kvo"/>
                             <constraint firstItem="t6K-1i-Oip" firstAttribute="leading" secondItem="bri-37-Ugz" secondAttribute="leading" id="tb5-hd-BKe"/>
                             <constraint firstItem="uD1-ot-Zva" firstAttribute="centerX" secondItem="bri-37-Ugz" secondAttribute="centerX" id="vsJ-ax-ypi"/>
+                            <constraint firstAttribute="trailing" secondItem="0BP-11-TIt" secondAttribute="trailing" id="x2k-H8-ZW7"/>
                         </constraints>
                         <variation key="default">
                             <mask key="subviews">
                                 <exclude reference="t6K-1i-Oip"/>
+                                <exclude reference="0BP-11-TIt"/>
                                 <exclude reference="uD1-ot-Zva"/>
                             </mask>
                             <mask key="constraints">
+                                <exclude reference="3BA-5m-lfv"/>
+                                <exclude reference="TvF-sb-oh2"/>
+                                <exclude reference="x2k-H8-ZW7"/>
                                 <exclude reference="GCA-bb-bv3"/>
                                 <exclude reference="pCO-Bt-kvo"/>
                                 <exclude reference="tb5-hd-BKe"/>
@@ -171,14 +184,19 @@
                                 <exclude reference="i9A-7Z-mBS"/>
                                 <exclude reference="vsJ-ax-ypi"/>
                                 <exclude reference="3KX-ka-4x0"/>
+                                <exclude reference="ldf-z6-liu"/>
                             </mask>
                         </variation>
                         <variation key="widthClass=compact">
                             <mask key="subviews">
                                 <include reference="t6K-1i-Oip"/>
+                                <include reference="0BP-11-TIt"/>
                                 <include reference="uD1-ot-Zva"/>
                             </mask>
                             <mask key="constraints">
+                                <include reference="3BA-5m-lfv"/>
+                                <include reference="TvF-sb-oh2"/>
+                                <include reference="x2k-H8-ZW7"/>
                                 <include reference="GCA-bb-bv3"/>
                                 <include reference="pCO-Bt-kvo"/>
                                 <include reference="tb5-hd-BKe"/>
@@ -187,16 +205,18 @@
                                 <include reference="i9A-7Z-mBS"/>
                                 <include reference="vsJ-ax-ypi"/>
                                 <include reference="3KX-ka-4x0"/>
+                                <include reference="ldf-z6-liu"/>
                             </mask>
                         </variation>
                     </view>
                     <connections>
+                        <outlet property="backgroundTapView" destination="0BP-11-TIt" id="Q6s-WH-SCJ"/>
                         <outlet property="backgroundView" destination="t6K-1i-Oip" id="brD-7x-ZdZ"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="AJ9-H6-zUH" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1074" y="330"/>
+            <point key="canvasLocation" x="1342.5" y="409"/>
         </scene>
     </scenes>
     <resources>
