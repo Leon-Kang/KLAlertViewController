@@ -33,6 +33,15 @@
     tap.delaysTouchesBegan = YES;
     [self.backgroundTapView addGestureRecognizer:tap];
     
+    NSNotificationCenter *center = [NSNotificationCenter defaultCenter];
+    [center addObserverForName:nil
+                        object:nil
+                         queue:nil
+                    usingBlock:^(NSNotification *notification)
+    {
+        NSLog(@"%@", notification.name);
+    }];
+    
 }
 
 - (void)didReceiveMemoryWarning {
